@@ -1,4 +1,4 @@
-import { HeroText, Navbar, ProductList } from "@/components";
+import { Footer, HeroText, Navbar, ProductList } from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Navbar />
       <HeroText />
       <ProductList />
+      <Footer />
     </div>
   );
 }

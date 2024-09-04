@@ -9,7 +9,7 @@ interface ProductCardProps {
 
 const ProductCard = ({ name, description, price, imageSrc }: ProductCardProps) => {
     return (
-        <div className="bg-white shadow-md rounded-lg overflow-hidden h-96 flex flex-col">
+        <div className="bg-white shadow-md rounded-lg overflow-hidden min-h-96 flex flex-col">
             <img src={imageSrc} alt={name} className="w-full h-48 object-contain border-b-2" />
             <div className="py-4 flex flex-col flex-grow">
                 <h2 className="text-xl font-bold text-purple-700 px-4">{name}</h2>

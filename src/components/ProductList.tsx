@@ -45,6 +45,60 @@ const products: Product[] = [
         price: '$9.99',
         imageSrc: '/sticks/stick6.png',
     },
+    {
+        name: 'Old But Gold',
+        description: 'Old Times',
+        price: '$9.99',
+        imageSrc: '/sticks/stick7.png',
+    },
+    {
+        name: 'Blue Beetle',
+        description: 'Blue Beetle? Slap and shout!',
+        price: '$9.99',
+        imageSrc: '/sticks/stick8.png',
+    },
+    {
+        name: 'Cute Alien',
+        description: 'Take me to your stickers!',
+        price: '$9.99',
+        imageSrc: '/sticks/stick9.png',
+    },
+    {
+        name: 'The Valiant Paladin',
+        description: 'A heroic paladin with a radiant shield and glowing sword.',
+        price: '$9.99',
+        imageSrc: '/sticks/stick10.png',
+    },
+    {
+        name: 'The Fierce Dragon',
+        description: 'A majestic dragon guarding its treasure, with vivid colors and a fiery breath.',
+        price: '$9.99',
+        imageSrc: '/sticks/stick11.png',
+    },
+    {
+        name: "The Mystic Wolf",
+        description: "A powerful wolf howling at the moon, surrounded by an ethereal glow.",
+        price: "$9.99",
+        imageSrc: "/sticks/stick12.png"
+    },
+    {
+        name: "The Unicorn Pup",
+        description: "An adorable pug in a whimsical unicorn costume, ready to spread magic!",
+        price: "$9.99",
+        imageSrc: "/sticks/stick13.png"
+    },
+    {
+        name: "The Playful Fox",
+        description: "A mischievous fox surrounded by autumn leaves, full of energy and charm.",
+        price: "$9.99",
+        imageSrc: "/sticks/stick14.png"
+    },
+    {
+        name: "The Adventurous Dog",
+        description: "Ready for any adventure, with a spirit as wild as the wind.",
+        price: "$9.99",
+        imageSrc: "/sticks/stick15.png"
+    }
 ];
 
 const ProductList = () => {
